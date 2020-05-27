@@ -1,0 +1,14 @@
+{% extends "parent-viz.html" %}
+{% block content %}
+<ul>
+    {% for item in items %}
+    <li>{{item}}</li>
+    {% endfor %}
+</ul>
+
+<form action="" method="POST">
+    <label>First Name</label>
+    <input name="firstname"/>
+    <input type="submit"/>
+</form>
+{% endblock %}

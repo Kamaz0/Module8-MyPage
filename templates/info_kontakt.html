@@ -1,0 +1,17 @@
+{% extends "parent-viz.html" %}
+{% block content %}
+<ul>
+    {% for item in items %}
+    <li>{{item}}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
+
+{% extends "parent.html" %}
+{% block content %}
+<h2>Kontakt</h2>
+<ul>
+<li>email: gajowy@marucha.pl</li><br>
+<li>telefon: 123 456 789</li>
+<p><b>Wyślij wiadomość</b></p>
+{% endblock %}

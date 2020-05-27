@@ -1,0 +1,13 @@
+{% extends "parent-viz.html" %}
+{% block content %}
+<ul>
+    {% for item in items %}
+    <li>{{item}}</li>
+    {% endfor %}
+</ul>
+
+<h2>O mnie</h2>
+<ul>
+<li><strong>imię</strong>: Gajowy</li><br>
+<li><strong>nazwisko</strong>: Marucha</li>
+{% endblock %}
