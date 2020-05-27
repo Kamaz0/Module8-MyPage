@@ -4,7 +4,7 @@
     {% block head %}
         <meta charset="utf-8">
         <title>My first website</title>
-        <link rel="stylesheet" href="stylez.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='stylez.css') }}">
     {% endblock %}
     </head>
     <body>
